@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 17, 2023 at 10:21 AM
+-- Generation Time: Feb 17, 2023 at 07:40 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -30,8 +30,15 @@ SET time_zone = "+00:00";
 CREATE TABLE `myblog` (
   `id` int(255) NOT NULL,
   `title` varchar(255) NOT NULL,
-  `content` varchar(800) NOT NULL
+  `content` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `myblog`
+--
+
+INSERT INTO `myblog` (`id`, `title`, `content`) VALUES
+(7, 'asdfsdf', 'asdfdsfdsf');
 
 --
 -- Indexes for dumped tables
@@ -51,7 +58,7 @@ ALTER TABLE `myblog`
 -- AUTO_INCREMENT for table `myblog`
 --
 ALTER TABLE `myblog`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
