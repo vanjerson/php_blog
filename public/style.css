@@ -1,0 +1,17 @@
+textarea {
+    height: 200px;
+}
+
+.card {
+    height: 9rem;
+}
+.card-body {
+    width: 18rem;
+}
+
+h1 .banner {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
